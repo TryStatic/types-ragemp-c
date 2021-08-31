@@ -18,7 +18,7 @@ interface Mp {
 }
 
 interface EventMpPool {
-	callProc(eventName: string, ...args: any[]): void;
+	callProc(eventName: string, ...args: any[]): Promise<any>;
 }
 
 // -------------------------------------------------------------------------
